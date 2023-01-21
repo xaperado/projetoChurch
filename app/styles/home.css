@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;700&display=swap');
+
+body {
+  font-family: 'Montserrat';
+}
+
+.social {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+.social i {
+  color: white;
+}
+
+
+.header {
+  max-width: 100%;
+  height: 8rem;
+  background-color: #03001C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  font-size: 2rem;
+  color: white;
+  font-weight: 300;
+
+}
+
+.nav {
+  display: flex;
+  gap: 10rem;
+  margin-top: 2rem;
+  color: white;
+}
+nav a {
+  font-weight: 200;
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+
+.carousel {
+  max-width: 75rem;
+  max-height: 37.5rem;
+  margin: 1rem auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-top: 5rem;
+}
+
+footer {
+  margin-top: 5rem;
+  max-width: 100%;
+  height: 8rem;
+  background-color: #03001C;
+
+}
+
+.footer {
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 3;
+}
+.endereco-footer {
+  grid-column: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.contatos-footer {
+  grid-column: 2;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.siganos-footer {
+  grid-column: 3;
+  color: white;
+}
+
+
+.tittle-footer:hover {
+  border-bottom: 2px solid yellow;
+}

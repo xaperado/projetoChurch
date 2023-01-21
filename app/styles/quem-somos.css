@@ -1,0 +1,9 @@
+.quem-somos {
+  width: 50%;
+  max-height: 100vw;
+}
+.quem-somos h3 {
+  text-align: center;
+  font-weight: 700;
+  color: #03001C;
+}
